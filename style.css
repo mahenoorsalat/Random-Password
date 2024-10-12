@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #102b4c;
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.container{
+    margin: 100px;
+}
+
+.inside-container{
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 83px;
+    color: white;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 90px;
+    color: darkgreen;
+    font-weight: 500;
+}
+
+.input {
+    display: flex;
+    width: 81%;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    align-items: center;
+}
+
+input {
+    justify-content: space-between;
+    background: none;
+    width: 85%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 23px 20px;
+    margin-top: 20px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+button i {
+    margin-right: 10px;
+}
+
+.btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: auto;
+}
+
+.btn i {
+    color: #333;
+    font-size: 41px;
+}
+
+
+@media (max-width : 768px){
+    h2 {
+        font-size: 57px;
+        color: white;
+        font-weight: 300;
+    }
+    .container {
+        margin: 25px;
+    }
+    h1 {
+        font-size: 61px;
+        color: darkgreen;
+        font-weight: 500;
+    }
+    .input{
+        padding: 0px;
+    }
+    .btn i {
+        color: #333;
+        font-size: 22px;
+    }
+    button {
+        font-size: 18px;
+        padding: 14px 20px;
+        margin-top: 20px;
+        background-color: darkgreen;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        width: 61%;
+    }
+}
